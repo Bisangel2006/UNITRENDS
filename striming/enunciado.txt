@@ -1,0 +1,17 @@
+TAREA: Crea tu primera página web con solo HTML
+ Parámetros:
+	Crea un archivo llamado misitioweb.html.*
+	Elige una temática que te guste o inventes, por ejemplo:*
+	Un personaje
+	Una mascota
+	Un negocio imaginario*
+	Una serie o Anime
+	Una banda o cantante
+
+Continuar elaborando tu sitio web ahora deberas incluir lo siguiente 
+-Arriba un <header> con el título.*
+-Un <nav> con enlaces como Inicio, Blog, Contacto.*
+-En <section>, incluir un <article> que muestre un texto de bienvenida.
+-En <aside>, poner un pequeño anuncio o frase.*
+-En <footer>, Nombre del componente,Nombre, Nombre del Docente .*
+-En la sección de Contacto, un formulario que pida nombre, email y mensaje.*

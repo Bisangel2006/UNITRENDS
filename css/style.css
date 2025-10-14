@@ -1,0 +1,109 @@
+/* Colores de la marca */
+:root {
+    --brand-yellow: #ffc107; /* Amarillo de Bootstrap para consistencia */
+    --brand-dark: #3d474e;   /* Gris oscuro de Bootstrap */
+    --brand-gray: #f8f9fa;  /* Gris claro de Bootstrap */
+    --brand-black: #192230;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna y legible */   
+}
+
+iframe {
+    border: none;
+    border-radius: 50px;
+    box-shadow: #212529 0px 10px 20px;
+}
+
+/* Sección Hero */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../marca/Baner.jpg'); /* Imagen de fondo con superposición oscura */
+    background-size: cover; /* Asegura que la imagen cubra toda el área */
+    background-position: center; /* Centra la imagen */
+    color: white; /* Texto blanco para contraste */
+    padding: 100px 0; /* Espaciado vertical */
+    text-align: center;     /* Centra el texto */
+}
+/* Título en la sección Hero */
+.hero-section h1 {
+    font-size: 3.5rem; /*   Tamaño grande para el título */
+    font-weight: bold; /* Negrita para destacar */
+}
+
+/* Botones */
+.btn-warning {
+    background-color: var(--brand-yellow); /* Color de fondo amarillo */
+    border-color: var(--brand-yellow); /* Borde amarillo */
+    color: var(--brand-black); /* letra negra para contraste */
+    font-weight: bold; /* Negrita para destacar */
+}
+
+.btn-warning:hover {
+    background-color: #ffcd00; /* Un amarillo un poco más oscuro para el hover */
+    border-color: #ffcd00; /* Borde más oscuro en hover */
+    color: var(--brand-black); /* Mantener letra negra */
+}
+
+/* Tarjetas de productos */
+.card {
+    border: none; /* Sin borde para un look más limpio */
+    transition: transform 0.2s; /*  Transición suave para el efecto hover */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+.card-title {
+    color: var(--brand-dark);/* Título en gris oscuro */
+}
+
+/* Estilos para formularios */
+.form-label {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra suave para el texto de las etiquetas */
+}
+
+/* Fondos de secciones */
+#servicios {
+    background-color: var(--brand-gray); /* Fondo gris claro para la sección de servicios */
+}
+
+/* Barra de navegación */
+.navbar-brand img {
+    border-radius: 5px; /* Pequeño redondeo para el logo */
+}
+
+.nav-link:hover {
+    color: var(--brand-yellow) !important; /* Color amarillo al pasar el mouse sobre los enlaces */
+}
+
+/* Pie de página */
+footer {
+    background-color: var(--brand-dark); /* Fondo gris oscuro */
+}
+
+/* Misión y Visión */
+.identidad-section {
+    padding: 60px 0;
+}
+/* Tarjetas de Misión y Visión */
+.identidad-card {
+    background-color: var(--brand-gray);
+    border-left: 5px solid var(--brand-yellow);
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+/* Efecto hover para las tarjetas de Misión y Visión */
+.identidad-card:hover {
+    transform: translateY(-5px);
+}
+/* Títulos dentro de las tarjetas de Misión y Visión */
+.identidad-card h2 {
+    color: var(--brand-dark);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
