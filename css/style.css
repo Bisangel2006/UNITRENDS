@@ -11,6 +11,7 @@ body {
 }
 
 iframe {
+    width: clamp(300px, 80%, 800px);
     border: none;
     border-radius: 50px;
     box-shadow: #212529 0px 10px 20px;
